@@ -1,26 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Прочитано!</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="shortcut icon" href="img/index.img/favicon.png" type="image/x-icon">
+  </head>
+  <body>
     <header>
-        <img id="logo" src="logo.jpg" alt="Логотип">
-        <nav>
-            <div class="navigation">
-                <p>Каталог книг</p>
-                <p>Моя бібліотека</p>
-                <p>Трекер</p>
-                <p>Рейтинг</p>
-            </div>
-            <div class="sign">
-            <button>Увійти</button>
-            <button>Зареєструватися</button>
-            </div>
-        </nav>
+      <img id="logo" src="img/index.img/logo.jpg" alt="Логотип" />
+      <nav>
+        <ul class="navigation">
+          <li class="navigation-li">Каталог книг</li>
+          <li class="navigation-li">Моя бібліотека</li>
+          <li class="navigation-li">Трекер</li>
+          <li class="navigation-li">Рейтинг</li>
+        </ul>
+        <div class="registration">
+          <button id="sign_in">Увійти</button>
+          <button id="log_in">Зареєструватися</button>
+        </div>
+      </nav>
     </header>
-    <hr>
-</body>
+    <hr />
+    <section>
+      <aside>
+        <div class="genres">
+          <h1>Жанр</h1>
+          <hr />
+          <ul class="genre-select">
+            <li class="genre-select-li">
+              <input type="checkbox" name="" id="" />Детектив
+            </li>
+            <li class="genre-select-li">
+              <input type="checkbox" name="" id="" />Ромком
+            </li>
+            <li class="genre-select-li">
+              <input type="checkbox" name="" id="" />Триллер
+            </li>
+            <li class="genre-select-li">
+              <input type="checkbox" name="" id="" />Фантастика
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <article>
+        <div class="research-div-pos">
+          <div class="research-div">
+            <input id="research" type="text" placeholder="Пошук..." />
+            <button>
+              <img src="img/index.img/research.png" alt="лупа" />
+            </button>
+          </div>
+        </div>
+        <div class="book-nav">
+            <hr>
+            <img src="img/index.img/left-arrow.png" alt="Стрілка вліво">
+            <img src="img/index.img/right-arrow.png" alt="Стрілка вправо">
+        </div>
+        <div class="items">
+            <div class="item">
+                <div class="item-image">
+                    <img src="59424_118625.jpg" alt="Книжка">
+                </div>
+                <div class="item-author">Саймон Бекетт</div>
+                <div class="item-title">Хімія смерті. Перше розслідування</div>
+                <div class="act">
+                    <button>Зберегти</button>
+                </div>
+            </div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+      </article>
+    </section>
+    <footer class="site-footer">
+        <p>© Oleksandra, 2025</p>
+        <p>Зроблено з любов'ю</p>
+      </footer>
+      <script src="js/script.js"></script>
+  </body>
 </html>
