@@ -1,0 +1,30 @@
+#logo{
+
+    width: 20%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.sign{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
