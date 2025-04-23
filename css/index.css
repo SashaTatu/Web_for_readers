@@ -41,7 +41,18 @@ nav{
     transition: 0.4s all ease;
 }
 
+.navigation-li>a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
 .navigation-li:hover{
+    color: #b66a2c;
+    transition: 0.4s all ease;
+}
+
+.navigation-li>a:hover{
     color: #b66a2c;
     transition: 0.4s all ease;
 }
